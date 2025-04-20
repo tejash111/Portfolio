@@ -4,7 +4,8 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../components/models/hero_models/HeroExperience";
+import Image from "./image";
+
 
 const Hero = () => {
   useGSAP(() => {
@@ -51,7 +52,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m Tejash, a developer based in Delhi with a passion for
               code.
             </p>
 
@@ -64,11 +65,7 @@ const Hero = () => {
         </header>
 
         {/* RIGHT: 3D Model or Visual */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
+        <Image/>
       </div>
 
       <AnimatedCounter />

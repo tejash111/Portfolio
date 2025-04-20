@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { socialImgs } from "../constants";
 
 import { navLinks } from "../constants";
 
@@ -26,7 +27,7 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a href="#hero" className="logo">
-          Adrian JSM
+          Tejash Rajput
         </a>
 
         <nav className="desktop">
@@ -42,11 +43,25 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
+        <div className="flex items-center gap-6">
+  <div className="socials flex gap-4">
+    {socialImgs.map((socialImg, index) => (
+      <div key={index} className="icon">
+        <a href={socialImg.link}>
+          <img src={socialImg.imgPath} alt="social icon" />
         </a>
+      </div>
+    ))}
+  </div>
+
+  <a href="#contact" className="contact-btn group">
+    <div className="inner">
+      <span>Contact me</span>
+    </div>
+  </a>
+</div>
+
+       
       </div>
     </header>
   );

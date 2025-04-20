@@ -49,15 +49,15 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/deres.png" alt="Ryde App Interface" />
+              <a href="https://p2p-deres.vercel.app/" target="_blank"> <img src="/images/deres.png" alt="Ryde App Interface" /></a>
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+              Peer-to-Peer Rentals Made Simple with a Powerful, User-Friendly Website Called DERES
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with React, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
