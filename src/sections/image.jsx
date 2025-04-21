@@ -25,7 +25,7 @@ const Image = () => {
           <img
             src="hero1.png"
             alt="Hero"
-            className="w-40 sm:w-[358px] md:w-[410px] lg:w-[200px] xl:w-[370px] object-contain transition-transform duration-300 md:-mt-20"
+            className="w-40 sm:w-[358px] md:w-[410px] lg:w-[200px] xl:w-[370px] object-contain transition-transform duration-300 "
           />
         </a>
       </div>
