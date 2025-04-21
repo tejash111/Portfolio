@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
         
         {/* Text content - will appear second on mobile */}
-        <header className="flex flex-col justify-center md:w-1/2 w-full md:px-20 px-5 order-2 md:order-1 -mt-32 md:mt-0">
+        <header className="flex flex-col justify-center md:w-1/2 w-full md:px-20 px-5 order-2 md:order-1 -mt-20 md:mt-0 sm:mt-20 ">
           <div className="flex flex-col md:gap-7 gap-2">
             <div className="hero-text">
               <h1>

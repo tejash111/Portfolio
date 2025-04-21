@@ -85,7 +85,7 @@ section {
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none -mt-10 md:mt-0;
+    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none -mt-10 md:mt-0 sm:mt-50 mt-10;
     img {
       @apply size-8 md:size-10 object-contain;
     }
@@ -305,7 +305,7 @@ section {
     }
 
     .socials {
-      @apply flex items-center justify-center gap-5;
+      @apply flex items-center justify-center gap-5 ;
 
       .icon {
         @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;

@@ -46,9 +46,9 @@ const NavBar = () => {
         <div className="flex items-center gap-6">
   <div className="socials flex gap-4">
     {socialImgs.map((socialImg, index) => (
-      <div key={index} className="icon">
+      <div key={index} className="icon sm:w-1 sm:h-1 w-3 h-3">
         <a href={socialImg.link}>
-          <img src={socialImg.imgPath} alt="social icon" />
+          <img src={socialImg.imgPath} alt="social icon" className="w-full h-full" />
         </a>
       </div>
     ))}
