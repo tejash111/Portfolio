@@ -21,14 +21,20 @@ const Hero = () => {
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="" />
       </div>
+      
 
-      <div className="hero-layout">
-        {/* LEFT: Hero Content */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-          <div className="flex flex-col gap-7">
+      <div className="hero-layout flex flex-col md:flex-row items-center justify-between">
+        {/* Image section - will appear first on mobile */}
+        <div className="w-full md:w-1/2 order-1 md:order-2 mb-0">
+          <Image/>
+        </div>
+        
+        {/* Text content - will appear second on mobile */}
+        <header className="flex flex-col justify-center md:w-1/2 w-full md:px-20 px-5 order-2 md:order-1 -mt-32 md:mt-0">
+          <div className="flex flex-col md:gap-7 gap-2">
             <div className="hero-text">
               <h1>
-                Shaping
+              Half-Baked
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -47,12 +53,13 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+               
+              <h1>into Buggy Projects</h1>
+              <h1>that Kinda Work (Sometimes)</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Tejash, a developer based in Delhi with a passion for
+              Hi, I'm Tejash, a developer based in Delhi with a passion for
               code.
             </p>
 
@@ -63,9 +70,6 @@ const Hero = () => {
             />
           </div>
         </header>
-
-        {/* RIGHT: 3D Model or Visual */}
-        <Image/>
       </div>
 
       <AnimatedCounter />

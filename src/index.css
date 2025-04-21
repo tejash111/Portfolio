@@ -81,11 +81,11 @@ section {
   }
 
   .hero-layout {
-    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
+    @apply relative z-10 xl:mt-20 mt-10 md:h-dvh h-auto flex xl:items-center items-start justify-center gap-0;
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none;
+    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none -mt-10 md:mt-0;
     img {
       @apply size-8 md:size-10 object-contain;
     }
@@ -131,7 +131,7 @@ section {
           @apply text-white-50 relative;
 
           span {
-            @apply transition-colors duration-300 hover:text-white;
+            @apply transition-colors duration-300 hover:text-gray-400;
           }
 
           .underline {
@@ -142,14 +142,10 @@ section {
     }
 
     .contact-btn {
-      @apply flex;
+      @apply flex items-center px-4 py-2 rounded-lg bg-white text-black group-hover:bg-black-50 transition-colors duration-300;
 
-      .inner {
-        @apply px-5 py-2 rounded-lg bg-white text-black group-hover:bg-black-50 transition-colors duration-300;
-
-        span {
-          @apply group-hover:text-white transition-colors duration-300;
-        }
+      span {
+        @apply group-hover:text-white transition-colors duration-300;
       }
     }
   }

@@ -54,7 +54,7 @@ const NavBar = () => {
     ))}
   </div>
 
-  <a href="#contact" className="contact-btn group">
+  <a href="#contact" className="contact-btn group flex items-center whitespace-nowrap hover:bg-black-50 transition-colors duration-300">
     <div className="inner">
       <span>Contact me</span>
     </div>

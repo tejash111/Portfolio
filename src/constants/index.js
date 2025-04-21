@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 0.5, suffix: "+", label: "Years of Experience" },
-  { value: 0.1, suffix: "+", label: "Satisfied Clients" },
+  { value: 6, suffix: "+", label: "Months of Experience" },
+  { value: 3.5, suffix: "+", label: "Satisfied Clients" },
   { value: 10, suffix: "+", label: "Completed Projects" },
   { value: 30, suffix: "%", label: "Client Retention Rate" },
 ];
@@ -75,17 +75,17 @@ const abilities = [
   {
     imgPath: "/images/seo.png",
     title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    desc: "Delivering semi-functional code sprinkled with bugs I swear I’ll fix in version 2.0. Maybe.",
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Ghosts you for 3 days, then replies at 2 AM with “yo it’s done (I think)”",
   },
   {
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "Deadlines are just... suggestions, right? But hey, at least I sent something before the client rage quit..",
   },
 ];
 
@@ -185,45 +185,46 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Working with Tejash was... an experience. Somehow he managed to break things we didn’t even know *could* break. The website eventually worked—after we hired someone else to fix it.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Tejash was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "If you enjoy bugs, crashes, and mysterious error messages, Tejash is your guy. He gave our site a 'modern' look—by which I think he meant 2005. Five stars for effort, I guess?",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Tejash was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Tejash’s code is like abstract art—confusing, messy, and open to interpretation. But hey, at least the site loads… eventually. On good days. If you don't touch anything.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Tejash was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Tejash promised a sleek, intuitive platform. What we got was a digital escape room where every button’s a puzzle. It's actually kind of fun… if you’re into suffering.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Tejash’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Tejash built our e-commerce site and sales have never been lower. Maybe customers just enjoy the thrill of trying to checkout on a site that crashes every 10 minutes.",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Tejash was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Frontend? Backend? Tejash struggles with *both*. But hey, he delivered *something*. Technically. If you squint hard enough, it kinda looks like a website.",
     imgPath: "/images/client6.png",
   },
 ];
+
 
 const socialImgs = [
   {
@@ -232,7 +233,7 @@ const socialImgs = [
     link : "https://www.instagram.com/tejashrajput_/#"
   },
   {
-    name: "fb",
+    name: "github",
     imgPath: "/images/fb.png",
     link: "https://github.com/tejash111"
   },
