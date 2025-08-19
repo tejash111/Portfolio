@@ -72,6 +72,7 @@
   }
   body {
     @apply bg-black text-white;
+    scroll-behavior: smooth;
   }
 }
 

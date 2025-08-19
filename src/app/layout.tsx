@@ -6,65 +6,77 @@ import React from "react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Asharib Ali | Passionate Developer. Designer. Manager. 🤍",
+  title: "Tejash Rajput | Full Stack Developer & AI Enthusiast 🚀",
   description:
-    "🙌 I build & teach AI and Blockchain stuff | ❇️ 3+ years of Tech Experience | 🤖 Teaching Cloud Native + Agentic AI to 1,500+ students, and managing a 30k+ tech community at GIAIC.",
+    "🚀 Full Stack Developer building modern web applications | ❇️ Experienced in Next.js, React, Node.js, Python | 🤖 AI & Blockchain enthusiast | 📚 Open source contributor & tech mentor | 🌟 Winner of multiple hackathons and community recognition awards.",
 
   openGraph: {
-    title: "Asharib Ali | Passionate Developer. Designer. Manager. 🤍",
+    title: "Tejash Rajput | Full Stack Developer & AI Enthusiast 🚀",
     description:
-      "🙌 I build & teach AI and Blockchain stuff | ❇️ 3+ years of Tech Experience | 🤖 Teaching Cloud Native + Agentic AI to 1,500+ students, and managing a 30k+ tech community at GIAIC.",
-    url: "https://asharib.xyz",
-    siteName: "Asharib Ali Portfolio",
+      "🚀 Full Stack Developer building modern web applications | ❇️ Experienced in Next.js, React, Node.js, Python | 🤖 AI & Blockchain enthusiast | 📚 Open source contributor & tech mentor | 🌟 Winner of multiple hackathons and community recognition awards.",
+    url: "https://tejashrajput.vercel.app/",
+    siteName: "Tejash Rajput Portfolio",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Asharib Ali - AI & Blockchain Developer Portfolio",
+        alt: "Tejash Rajput - Full Stack Developer & AI Enthusiast Portfolio",
         type: "image/png",
       },
     ],
     locale: "en_US",
     type: "website",
-    countryName: "Pakistan",
+    countryName: "India",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Asharib Ali | Passionate Developer. Designer. Manager. 🤍",
+    title: "Tejash Rajput | Full Stack Developer & AI Enthusiast 🚀",
     description:
-      "🙌 I build & teach AI and Blockchain stuff | ❇️ 3+ years of Tech Experience | 🤖 Teaching Cloud Native + Agentic AI to 1,500+ students, and managing a 30k+ tech community at GIAIC.",
+      "🚀 Full Stack Developer building modern web applications | ❇️ Experienced in Next.js, React, Node.js, Python | 🤖 AI & Blockchain enthusiast | 📚 Open source contributor & tech mentor | 🌟 Winner of multiple hackathons and community recognition awards.",
     images: ["/og.png"],
-    creator: "@0xAsharib",
-    site: "@0xAsharib",
+    creator: "@tejashrajput",
+    site: "@tejashrajput",
   },
 
-  metadataBase: new URL("https://asharib.xyz"),
+  metadataBase: new URL("https://tejashrajput.vercel.app/"),
   alternates: {
-    canonical: "https://asharib.xyz",
+    canonical: "https://tejashrajput.vercel.app/",
   },
 
   keywords: [
-    "Asharib Ali",
-    "AI Engineer",
-    "Blockchain Developer",
+    "Tejash Rajput",
     "Full Stack Developer",
-    "Agentic AI",
-    "Cloud Native",
-    "Top Pakistan Developer",
-    "Tech Teacher",
-    "AI Education",
-    "Blockchain Education",
-    "Tech Community",
-    "Programming Instructor",
-    "Open Source",
+    "AI Developer",
+    "Blockchain Developer",
+    "Next.js Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Python Developer",
+    "TypeScript Developer",
+    "Web3 Developer",
+    "Open Source Contributor",
+    "Tech Mentor",
+    "Hackathon Winner",
+    "Community Manager",
+    "Content Creator",
+    "Prompt Engineering",
+    "Solidity Developer",
+    "EVM Developer",
+    "Docker Developer",
+    "CI/CD Developer",
+    "API Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "India Developer",
+    "GSSOC",
     "GIAIC",
     "PIAIC",
   ],
-  authors: [{ name: "Asharib Ali", url: "https://asharib.xyz" }],
-  creator: "Asharib Ali",
-  publisher: "Asharib Ali",
+  authors: [{ name: "Tejash Rajput", url: "https://tejashrajput.vercel.app/" }],
+  creator: "Tejash Rajput",
+  publisher: "Tejash Rajput",
 
   robots: {
     index: true,
@@ -83,11 +95,11 @@ export const metadata: Metadata = {
   other: {
     "pinterest-media": "/og.png",
     "pinterest-description":
-      "🙌 I build & teach AI and Blockchain stuff | ❇️ 3+ years of Tech Experience | 🤖 Teaching Cloud Native + Agentic AI to 1,500+ students, and managing a 30k+ tech community at GIAIC.",
+      "🚀 Full Stack Developer building modern web applications | ❇️ Experienced in Next.js, React, Node.js, Python | 🤖 AI & Blockchain enthusiast | 📚 Open source contributor & tech mentor | 🌟 Winner of multiple hackathons and community recognition awards.",
 
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "apple-mobile-web-app-title": "Asharib Ali",
+    "apple-mobile-web-app-title": "Tejash Rajput",
 
     "msapplication-TileColor": "#000000",
     "msapplication-TileImage": "/og.png",
@@ -108,20 +120,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-8CXGRC7T09"
-      ></Script>
-      <Script id="google-analytics">
-        {`
-   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <html lang="en" className={inter.className} suppressHydrationWarning>
 
-  gtag('config', 'G-8CXGRC7T09');
-  `}
-      </Script>
       <body>{children}</body>
     </html>
   );

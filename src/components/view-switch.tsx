@@ -18,11 +18,11 @@ export function ViewSwitch({
   size = "default",
 }: ViewSwitchProps) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex w-full flex-col items-center">
       {/* Main switch component */}
       <div
         className={cn(
-          "relative flex select-none items-center rounded-full p-1",
+          " flex select-none items-center rounded-full p-1",
           "border border-gray-800 bg-black",
           size === "large"
             ? "h-12 w-72 text-base sm:h-16 sm:w-96 sm:text-lg"

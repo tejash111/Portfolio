@@ -5,16 +5,24 @@ import {
   CardDescription,
   CardTitle,
 } from "./ui/card";
+import {
+  GitHubIcon,
+} from "@/components/icons";
 import { Badge } from "./ui/badge";
+import Image from "next/image";
+import { Github, Link } from "lucide-react";
 
 interface Props {
   title: string;
   description: string;
   tags: readonly string[];
   link?: string;
+  image :string;
+  github : string;
+  live : string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link,image,github,live }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-gray-800/50 p-4 hover:border-gray-700 transition-all duration-300">
       <CardHeader className="pb-3">
@@ -35,6 +43,19 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           </CardTitle>
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
+          </div>
+          <div className="rounded-2xl border-0">
+            <Image className="rounded" src={image} width={300} height={230} alt={title}/>
+          </div>
+          <div className="flex gap-1">
+                      <Github
+                        className="p-1 border border-[#202021] text-[#999999] duration-500 hover:bg-black bg-[#141415] rounded-full cursor-pointer"
+                        onClick={() => window.open(github, "_blank")}
+                      />
+                      <Link
+                        className="p-1 text-[#999999] border border-[#202021] duration-500 hover:bg-black bg-[#141415] rounded-full cursor-pointer"
+                        onClick={() => window.open(live, "_blank")}
+                      ></Link>
           </div>
           <CardDescription className="font-mono text-xs print:text-[10px]">
             {description}

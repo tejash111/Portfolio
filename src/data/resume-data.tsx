@@ -5,80 +5,51 @@ import {
   MediumIcon,
   TelegramIcon,
   InstagramIcon,
-  FacebookIcon,
-  YoutubeIcon,
 } from "@/components/icons";
 import { title } from "process";
 
 export const RESUME_DATA = {
-  name: "Asharib Ali",
-  initials: "AA",
-  location: "Based in Pakistan 🇵🇰",
-  locationLink: "https://www.google.com/maps/place/nawabshah",
-  about: "I build & teach AI and Blockchain stuff",
+  name: "Tejash Rajput",
+  initials: "TR",
+  location: "Based in India IN",
+  locationLink: "https://www.google.com/maps/place/Delhi",
+  about: "I build AI and Full Stack stuff",
   summary:
-    "I build AI & Blockchain solutions and teach others to do the same. Currently instructing 1,500+ students (on-site) in Cloud Native + Agentic AI while managing a 30k+ tech community at GIAIC.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/102221198?v=4",
-  personalWebsiteUrl: "https://www.asharib.xyz",
+    "I build full-stack applications, contribute to open-source, and mentor developers. Experienced in modern web frameworks like Next.js, React, Express, MongoDB, and PostgreSQL. Currently mentoring contributors at GSSOC’25 and developing scalable products with cloud-native & AI integrations.",
+  avatarUrl: "avatar.jpg",
+  personalWebsiteUrl: "https://tejashrajput.vercel.app/",
   contact: {
-    email: "contact@asharib.xyz",
+    email: "tejashsinghrajput@gmail.com",
 
     social: [
       {
-        name: "Telegram",
-        url: "https://t.me/AsharibAli",
-        icon: TelegramIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/asharibali/",
+        url: "https://www.linkedin.com/in/tejashrajput/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/0xAsharib",
+        url: "https://x.com/tejashrajput11",
         icon: XIcon,
       },
       {
-        name: "Medium",
-        url: "https://asharibali.medium.com/",
-        icon: MediumIcon,
-      },
-      {
         name: "GitHub",
-        url: "https://github.com/AsharibAli",
+        url: "https://github.com/tejash111",
         icon: GitHubIcon,
       },
       {
-        name: "Youtube",
-        url: "https://www.youtube.com/@0xAsharib",
-        icon: YoutubeIcon,
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/asharib.imtiaz/",
-        icon: FacebookIcon,
-      },
+        name : "Instagram",
+        url : "https://www.instagram.com/tejashrajput_",
+        icon : InstagramIcon
+      }
     ],
   },
   education: [
     {
-      school: "Virtual University",
-      degree: "Associate Degree in Computer Science",
+      school: "Kiet Group of institutions",
+      degree: "Bachelors Degree in Computer Science",
       start: "2024",
-      end: "Present",
-    },
-    {
-      school: "Panaverse, PIAIC",
-      degree: "Cloud Native Applied Agentic AI",
-      start: "2022",
-      end: "Present",
-    },
-    {
-      school: "Goverment Boys Degree College",
-      degree: "Intermediate in Medical Science",
-      start: "2020",
-      end: "2022",
+      end: "2028",
     },
   ],
   achievements: [
@@ -91,398 +62,40 @@ export const RESUME_DATA = {
         },
       ],
     },
-    {
-      title: "Student Ambassador for 30k+ GIAIC Community",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp/?utm_source=share&utm_medium=member_desktop",
-        },
       ],
-    },
-    {
-      title: "EigenLayer Community Recognition & Active Contributor",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/eigenlayer/status/1640449493526274049?s=20",
-        },
-      ],
-    },
-    {
-      title: "Best Student of the Year (1200+ Students)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.instagram.com/p/CRTPa8Wt_cL/",
-        },
-      ],
-    },
-    {
-      title: "Most Used Platform on EduChain (6.7M+ Transactions)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/opencampus_xyz/status/1860993260237525007",
-        },
-      ],
-    },
-    {
-      title: "NED University Invited me to speak on Web3",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/asharibali_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%83-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-activity-7321048266819756032-l6eK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-        },
-      ],
-    },
-    {
-      title: "Sir Zia Appreciated my hard work at Panaverse",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://imgbb.com/GcrjcTw",
-        },
-      ],
-    },
-    {
-      title: "Personal Recognition from Harry Zhang",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/harryzhangs/status/1887772228651208963",
-        },
-      ],
-    },
-    {
-      title: "Complete Urdu Translation of Learn Prompting Guide",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "  https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop          ",
-        },
-      ],
-    },
-    {
-      title: "Honourable IT Instructor",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/0xAsharib/status/1741472460837421225?s=20",
-        },
-      ],
-    },
-    {
-      title: "Masa Finance Ambassador",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "http://masa.ai/",
-        },
-      ],
-    },
-    {
-      title: "FlowiseAI Expert & Open-Source Contributor",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://github.com/flowiseai/flowise",
-        },
-      ],
-    },
-    {
-      title: "Lava Blockchain Champion & Open-Source Contributor",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/yaircleper/status/1768695964703822175?s=20",
-        },
-      ],
-    },
-    {
-      title: "Open Campus Hackathon Winner (Infrastructure Track)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://medium.com/edu-chain/announcing-the-winners-of-edu-chain-hackathon-semester-1-6554808bbf5a",
-        },
-      ],
-    },
-    {
-      title: "Celestia Hackathon Winner (Community Track)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/CelestiaOrg/status/1797710392992678345",
-        },
-      ],
-    },
-    {
-      title: "Owl Protocol Hackathon Winner (Bounty Track)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/owlprotocol_xyz/status/1798708978253509002?s=52",
-        },
-      ],
-    },
-    {
-      title: "DSCVR Hackathon Winner (Metaplex Track)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.youtube.com/watch?v=8D9SQx4azxE",
-        },
-      ],
-    },
-    {
-      title: "DSCVR Hackathon Winner (DSCVR Track)",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://earn.superteam.fun/listings/bounty/build-a-canvas-on-dscvr/",
-        },
-      ],
-    },
-    {
-      title: "Workshop Speaker at Mega Co-Learning Camp with EduChain",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/HackQuest_/status/1863830459488350572",
-        },
-        {
-          name: "👉 Reference",
-          url: "https://x.com/HackQuest_/status/1863833522613686751",
-        },
-        {
-          name: "👉 Reference",
-          url: "https://x.com/HackQuest_/status/1864638387216634005",
-        },
-      ],
-    },
-    {
-      title: "Youngest AMA Speaker on Education & Blockchain",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/pukecast/status/1856030956135821538",
-        },
-        {
-          name: "👉 Reference",
-          url: "https://x.com/pukecast/status/1856683237793538467",
-        },
-      ],
-    },
-    {
-      title: "Winner of 10+ Crypto & Web3 Contests",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://x.com/0xasharib",
-        },
-      ],
-    },
-    {
-      title: "Multiple Speech Contest Winner",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/asharibali_speech-winnerchallenge-activity-7152583254942855168-VVJD?utm_source=share&utm_medium=member_desktop",
-        },
-      ],
-    },
-    {
-      title: "Exceed Xounity 2025 Workshop Guest Speaker",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.youtube.com/watch?v=MO_88QrgxUY",
-        },
-      ],
-    },
-    {
-      title: "Web3 Resources & Tools Workshop Lead Speaker",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.youtube.com/watch?v=JY4Feuv7s_0",
-        },
-      ],
-    },
-    {
-      title: "Blockchain Bootcamp Co-Lead Speaker",
-      reference: [
-        {
-          name: "👉 Reference",
-          url: "https://www.linkedin.com/posts/decentral-developers_blockchainbootcamp-web3revolution-futureofinternet-activity-7321844451448893440-jW1x?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-        },
-      ],
-    },
-  ],
 
   work: [
     {
-      company: "EduHub",
-      link: "https://eduhub.dev/",
+      company: "FOSSCU",
+      link: "https://fosscu.org/",
       badges: ["Remote", "Full-Time"],
-      title: "Chief Technology Officer",
-      start: "2024 August",
+      title: "Full Stack developer",
+      start: "2024 September",
       end: "Present",
-      description:
-        "I've been working as a Founder & CTO at EduHub, building Vibe Tooling for (community & developers) on EduChain, a blockchain for Education.",
       bulletPoints: [
         {
-          text: "Top Project of EduChain (25+ million on-chain transactions)",
-          links: [
-            {
-              name: "EduChain Reference",
-              url: "https://x.com/opencampus_xyz/status/1879393083701494262",
-            },
-          ],
+          text: "Developed full-stack apps using JavaScript, TypeScript ,Next.js ,React, Express ,MongoDb and Postgresql.",
         },
         {
-          text: "Developed and launched core products: EduHub, EduAgent, EduGPT, EduKit, and EduBox",
-          links: [
-            {
-              name: "EduHub Products",
-              url: "https://docs.eduhub.dev/products",
-            },
-          ],
+          text: "Collaborated with clients and teams to deliver 4+ full-stack freelance projects, overseeing end-to-end development and deployment.",
         },
-        {
-          text: "Backed by Open Campus Incubator Program",
-          links: [
-            {
-              name: "OCI Program",
-              url: "https://oci.opencampus.xyz/",
-            },
           ],
-        },
-      ],
     },
     {
-      company: "GIAIC",
-      link: "https://www.governorsindh.com/",
-      badges: ["Onsite", "Part-Time"],
-      title: "Lead Teacher",
-      start: "2024 Feb",
+      company: "GSSOC",
+      link: "https://fosscu.org/",
+      badges: ["Remote", "Part-Time"],
+      title: "Full Stack developer",
+      start: "2025 July",
       end: "Present",
-      description:
-        "I am teaching Agentic AI to 1500+ students (on-site) and managing the 30k+ GIAIC Discord community to help students learn and grow in tech.",
       bulletPoints: [
         {
-          text: "Lead instructor for 1,500+ students learning Agentic AI, in Q1, Q2, and Q3",
-          links: [
-            {
-              name: "Q1 TypeScript",
-              url: "https://www.linkedin.com/posts/asharibali_ai-quiz-programming-activity-7204203223904116736-Z5a2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-            },
-            {
-              name: "Q2 React/Next.js",
-              url: "https://www.linkedin.com/posts/asharibali_little-glimpse-i-had-the-pleasure-of-activity-7239249368883576834-gysQ?utm_source=share&utm_medium=member_desktop",
-            },
-            {
-              name: "Q3 Python",
-              url: "https://www.linkedin.com/posts/asharibali_first-class-of-giaic-q3-monday-2-5-activity-7300118847204818944-EWhl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-            },
+          text: "Mentor at GirlScript Summer of Code 2025 – Led contributors in implementing scalable features, optimizing codebases, and resolving real-world GitHub issues",
+        },
+        {
+          text: "Conducted technical reviews, enforced best practices in Git/GitHub workflows, and guided contributors on full-stack development using modern tech stacks.",
+        },
           ],
-        },
-        {
-          text: "Managed a 30k+ GIAIC students community on Discord as the only Student Ambassador",
-          links: [
-            {
-              name: "LinkedIn Endorsement",
-              url: "https://www.linkedin.com/posts/ameen-alam_asharib-ali-governor-sindh-initiative-for-activity-7167880905192030208-x-Yp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADcqOlQBqooO0dPpDAJrkqkbM_t-duzoyvA",
-            },
-            {
-              name: "Discord Community",
-              url: "https://discord.gg/ZsN4YVRsRg",
-            },
-            {
-              name: "LinkTree (GIAIC)",
-              url: "https://linktr.ee/giaic",
-            },
-          ],
-        },
-        {
-          text: "Organized large-scale coding challenges",
-          links: [
-            {
-              name: "100 Days of Code (5k+ participants)",
-              url: "https://github.com/AsharibAli/100-days-of-code",
-            },
-            {
-              name: "30 Days of 30 Projects (3k+ participants)",
-              url: "https://github.com/AsharibAli/30days-of-30projects",
-            },
-            {
-              name: "Ramadan Coding Nights (2k+ participants)",
-              url: "https://github.com/AsharibAli/ramadan-coding-nights",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      company: "Tameer-E-Millat",
-      link: "https://x.com/0xAsharib/status/1712050364823048485",
-      badges: ["Onsite", "Contract"],
-      title: "Head of IT",
-      start: "2023 Oct",
-      end: "2023 Dec",
-      description:
-        "I led a 3-month Introductory-Level course covering web technologies, fundamentals, and modern tech trends (Blockchain & AI).",
-      bulletPoints: [
-        {
-          text: "Designed and delivered comprehensive curriculum for 50+ students",
-        },
-        {
-          text: "Achieved 90% student satisfaction rate through hands-on learning approach",
-        },
-        {
-          text: "Introduced innovative teaching methods combining theory with practical projects",
-        },
-      ],
-    },
-    {
-      company: "B4Business",
-      link: "https://b4bussines.com/",
-      badges: ["Remote", "Part-Time"],
-      title: "Technical Writer",
-      start: "2022 Jan",
-      end: "2023 Jan",
-      description:
-        "I managed and led B4Business, a comprehensive learning hub, using WordPress as a CMS. I authored articles on Blockchain, Technical Analysis, and Fundamental News, engaging with the community to foster a space for learning and growth.",
-      bulletPoints: [
-        {
-          text: "Published 100+ articles on blockchain technology",
-        },
-        {
-          text: "Grew website traffic through SEO optimization",
-        },
-      ],
-    },
-    {
-      company: "IVSpace",
-      link: "https://www.ivspace.io/",
-      badges: ["Remote", "Part-Time"],
-      title: "Community Administrator",
-      start: "2022 Jan",
-      end: "2022 June",
-      description:
-        "I led IVSpace community social handles, helping members and growing engagement through moderation and community-building activities.",
-      bulletPoints: [
-        {
-          text: "Led 5k+ member community on Discord and Telegram",
-        },
-        {
-          text: "Grew active members by 40% through engagement activities",
-        },
-        {
-          text: "Set up and enforced community rules and guidelines",
-        },
-      ],
     },
   ],
 
@@ -494,419 +107,106 @@ export const RESUME_DATA = {
     "PostgreSQL",
     "Node.js",
     "Python",
-    "fastAPI",
-    "SQLModel",
     "Docker",
     "Docker Compose",
     "CI/CD Actions",
-    "Solidity",
-    "EVM",
-    "Tech Teaching",
-    "API Development",
-    "Frontend Development",
-    "Backend Development",
+    "REST API",
+    "GraphQL",
     "Full Stack Development",
-    "Blockchain Development",
     "AI Development",
-    "Prompt Engineering",
-    "Content Creator",
-    "Content Writer",
-    "Community Management",
-    "Project Management",
+    "Cloudinary",
+    "Better-Auth"
   ],
   projects: [
     {
-      title: "Blockchain Research Tools",
-      techStack: ["Side Project", "Crypto", "Tools"],
+      title: "Rental App",
+      techStack: ["Next.js","Node.js","typescript","Postgres","drizzle-orm","cloudinary","Better-auth","Paypal",],
       description:
-        "A curated list of great blockchain or crypto-based research tools, products, and services.",
+        "A rental app where someone",
+        image : "/rent.png",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/crypto-research-tools",
+        href: "https://github.com/tejash111/rentalapp/",
       },
+      github : "https://github.com/tejash111/rentalapp/",
+      live : "https://nok-nok-phi.vercel.app/"
     },
     {
-      title: "100 Days of Code",
-      techStack: ["GIAIC", "Web Development", "TypeScript"],
+      title: "AI Resume Builder",
+      techStack: ["React.js", "Node.js", "TypeScript","MongoDB","Langchain"],
       description:
-        "Organized a 100 Days of Coding Challenge for 30k+ GIAIC students, covering basic to advanced level programming.",
-      link: {
-        label: "linkedin.com",
-        href: "https://github.com/AsharibAli/100-days-of-code",
-      },
-    },
-    {
-      title: "30 Days of 30 Projects",
-      techStack: ["GIAIC", "NextJS", "TypeScript"],
-      description:
-        "Organized a 30 Days of 30 Projects Challenge for 30k+ GIAIC students, building 30 cool mini projects using the latest tech stack.",
+        "Ai based resume Builder",
+        image : "/res.png",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/30days-of-30projects",
+        href: "https://github.com/tejash111/Resume-builder",
       },
+      github : "https://github.com/tejash111/Resume-builder/",
+      live : "https://pitchperfect-weld.vercel.app/"
     },
     {
-      title: "Ramadan Coding Nights",
-      techStack: ["GIAIC", "Live Coding", "Python"],
+      title: "Lost and found",
+      techStack: ["Next.js","Node.js","typescript","Postgres","drizzle-orm","cloudinary","Better-auth"],
       description:
-        "Organized a 20-day Ramadan coding challenge featuring 1-hour live sessions where I build Python mini-projects while explaining concepts to students.",
+        "jsut a lost and fonnd app",
+        image : "/found.png",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/ramadan-coding-nights",
+        href: "https://github.com/tejash111/lost-found",
       },
+      github : "https://github.com/tejash111/lost-found/",
+      live : "https://404-found-seven.vercel.app/landing-page"
     },
     {
-      title: "100 Days of Blockchain",
-      techStack: ["Revision", "Blockchain", "Solidity"],
+      title: "Task Mangement app",
+      techStack: ["React.js", "Node.js", "Javascript","MongoDB","Tailwind","JWT"],
       description:
-        "Daily practice with Solidity and smart contract development using modern blockchain tools to improve my skills.",
+        "A Task Mangemnt system like trello ",
+        image : "/task.png",
       link: {
         label: "github.com",
-        href: "https://github.com/AsharibAli/100-days-of-blockchain",
+        href: "https://github.com/tejash111/ShipIt",
       },
+       github : "https://github.com/tejash111/ShipIt/",
+      live : "https://ship-it-one.vercel.app/"
     },
-    {
-      title: "100 Days of Prompting",
-      techStack: ["Prompting Engineering", "AI", "LLM"],
-      description:
-        "Daily practice in PE techniques to master AI interactions and build effective prompts for various use cases.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/100-Days-of-Prompt-Engineering",
-      },
-    },
-    {
-      title: "Mini Projects",
-      techStack: ["Side Projects", "HTML", "CSS", "JS"],
-      description:
-        "Built HTML, CSS, and JavaScript projects to improve my problem-solving skills and programming logic.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/html-css-js-projects",
-      },
-    },
-    {
-      title: "Sigma Web Development",
-      techStack: ["Course", "Web Development", "JS"],
-      description:
-        "Completed comprehensive web development course covering modern programming fundamentals and best practices.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/sigma-web-dev",
-      },
-    },
-    {
-      title: "Daily Designs Challenge",
-      techStack: ["Side Projects", "Figma", "Canva"],
-      description:
-        "Designed and created UI/UX projects over 20+ days to develop a strong foundation in design principles.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/Daily-Designs-Challenge",
-      },
-    },
-    {
-      title: "Next Auth V5",
-      techStack: ["Course", "TypeScript", "NextAuth.js"],
-      description:
-        "Built the NextAuth.js advance project from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/next-authjs-v5",
-      },
-    },
-    {
-      title: "Next.js App Router",
-      techStack: ["Course", "TypeScript", "Next.js"],
-      description:
-        "Completed the official Next.js course with 16 chapters, each on a different topic and built a dashboard app.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/nextjs-dashboard",
-      },
-    },
-    {
-      title: "Learn Prompting Guide",
-      techStack: ["Translation", "Urdu Language", "AI"],
-      description:
-        "Completed the Urdu language translation of Learn Prompting Official Documentation.",
-      link: {
-        label: "linkedin.com",
-        href: "https://www.linkedin.com/posts/asharibali_somethingbig-buildinpublic-ai-activity-7168993498921193474-wPFn?utm_source=share&utm_medium=member_desktop",
-      },
-    },
-    {
-      title: "Talkn",
-      techStack: [
-        "Hackathon Project",
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Solidity",
-        "Harhat",
-      ],
-      description:
-        "A Web3 platform implementing Talk-2-Earn and Engage-2-Earn concepts for decentralized social interaction.",
-      link: {
-        label: "https://talkn-rho.vercel.app/",
-        href: "https://talkn-rho.vercel.app/",
-      },
-    },
-    {
-      title: "Safock",
-      techStack: [
-        "Hackathon Project",
-        "Next.js",
-        "Reserve Protocol",
-        "Solidity",
-      ],
-      description:
-        "A DeFi platform enabling users to stake ETFs, get insurance on ETFs, and earn rewards through RTokens.",
-      link: {
-        label: "safock-asharibali.vercel.app/",
-        href: "https://safock-asharibali.vercel.app/",
-      },
-    },
-    {
-      title: "5irePay",
-      techStack: ["Hackathon Project", "Next.js", "Solidity"],
-      description:
-        "A crypto payment platform enabling instant transactions with email addresses, inspired by PayPal's functionality.",
-      link: {
-        label: "5ire-pay.vercel.app",
-        href: "https://5ire-pay.vercel.app/",
-      },
-    },
-    {
-      title: "NextIJT",
-      techStack: ["Volunteering Project", "Next.js", "TypeScript"],
-      description:
-        "Official website for NextIJT, a non-profit organization that provides free education to students in Pakistan.",
-      link: {
-        label: "nextijt.com",
-        href: "https://nextijt.com/",
-      },
-    },
-    {
-      title: "Safe Foundation",
-      techStack: ["Volunteering Project", "Next.js", "TypeScript"],
-      description:
-        "Official website for Safe Foundation, a non-profit nurturing intellectual growth and leadership in Pakistan.",
-      link: {
-        label: "safefoundation.xyz",
-        href: "https://safefoundation.xyz/",
-      },
-    },
-    {
-      title: "Panaverse Website",
-      techStack: ["Assignment Project", "JavaScript", "Next.js"],
-      description:
-        "A forward-thinking educational organization in Pakistan, offering cutting-edge tech courses and training.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/panaverse-website",
-      },
-    },
-    {
-      title: "Smart Wallet Accounts",
-      techStack: ["Assignment Project", "Solidity", "Next.js", "Erc4337"],
-      description:
-        "A smart wallet accounts project allowing users to interact with the blockchain using account abstraction (ERC-4337).",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/smart-wallet-accounts",
-      },
-    },
-    {
-      title: "Portfolio",
-      techStack: ["Portfolio Project", "Nextjs", "TypeScript", "TailwindCSS"],
-      description: "My personal portfolio website built with latest tech-stack.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/portfolio",
-      },
-    },
-    {
-      title: "Ecommerce Store",
-      techStack: ["Assignment Project", "Nextjs", "Sanity", "Drizzle"],
-      description: "An ecommerce store built with latest tech-stack.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/ecommerce-store",
-      },
-    },
-    {
-      title: "Ecommerce Store 2.0",
-      techStack: ["Assignment Project", "Nextjs", "Shopify", "Typescript"],
-      description:
-        "An ecommerce store built with Shopify as a backend and Nextjs as a frontend to manage products and orders.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/shopify-nextjs-commerce2.0",
-      },
-    },
-    {
-      title: "Nouman School",
-      techStack: ["Side Project", "HTML", "JavaScript"],
-      description:
-        "A school website for Noman School, built with HTML, CSS, and JavaScript to showcase the school's achievements and events.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/noman-school-website",
-      },
-    },
-    {
-      title: "Sindh School",
-      techStack: ["Side Project", "HTML", "JavaScript"],
-      description:
-        "A school website for SCM School, built with HTML, SCSS, and JavaScript to showcase the school's achievements and events.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/scm-website",
-      },
-    },
-    {
-      title: "Create Blast Dapp",
-      techStack: ["Hackathon Project", "Npm Package", "Nextjs", "Hardhat"],
-      description:
-        "A full-stack starter template featuring Next & Hardhat, designed for building Dapps on Blast L2 Chain.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/create-blast-dapp",
-      },
-    },
-    {
-      title: "ChatDev",
-      techStack: [
-        "Assignment Projects",
-        "ChatDev",
-        "JavaScript",
-        "Python",
-        "OpenAI",
-      ],
-      description:
-        "Created customized software using natural language ideas through multi-agent collaboration with ChatDev.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/projects_with_chatdev",
-      },
-    },
-    {
-      title: "Financial Analyst AI",
-      techStack: ["Assignment Project", "Python"],
-      description:
-        "Built a financial analyst AI using OpenAI assistant and financialmodelingprep APIs.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/financial-analyst-ai",
-      },
-    },
-    {
-      title: "Optimism AI",
-      techStack: ["Hackathon Project", "Blockchain", "AI"],
-      description:
-        "An AI assistant for the Optimism blockchain, providing real-time insights and analytics to enhance user experience.",
-      link: {
-        label: "op-ai.xyz",
-        href: "https://www.op-ai.xyz/",
-      },
-    },
-    {
-      title: "AI Quiz App",
-      techStack: ["Side Project", "AI", "Quizzes"],
-      description:
-        "A quiz app to test your prompt engineering, AI, and large language model skills by taking this simple 50-question quiz.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/prompting-quizzes",
-      },
-    },
-    {
-      title: "Blockchain Quiz App",
-      techStack: ["Side Project", "Blockchain", "Quizzes"],
-      description:
-        "A quiz app to test your blockchain technology skills by taking this simple 50-question quiz.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/blockchain-quizzes",
-      },
-    },
-    {
-      title: "Figma Clone",
-      techStack: ["Clone Project", "Nextjs", "TypeScript"],
-      description:
-        "A Figma Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/figma-clone",
-      },
-    },
-    {
-      title: "Threads Clone",
-      techStack: ["Clone Project", "Nextjs", "TypeScript"],
-      description:
-        "A Threads Clone built from scratch with Nextjs and TypeScript followed by a Youtube Tutorial.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/AsharibAli/threads-clone",
-      },
-    },
+    
   ],
   keyHighlights: [
     {
       title: "Experience",
-      description: "3+ years in tech industry",
+      description: "2+ years in tech industry",
       icon: "💼",
     },
     {
-      title: "Teaching",
-      description: "3k+ students taught (onsite) about tech",
-      icon: "👨‍🏫",
-    },
-    {
-      title: "Community",
-      description: "Have 30k+ followers across social handles",
-      icon: "👥",
-    },
-    {
       title: "Projects",
-      description: "100+ projects completed",
+      description: "10+ projects completed",
       icon: "🚀",
     },
     {
       title: "Open Source",
-      description: "50+ contributions",
+      description: "10+ contributions",
       icon: "✨",
     },
     {
       title: "Hackathons",
-      description: "Won 7 hackathons",
+      description: "Attended 5+ hackathons",
       icon: "🏆",
     },
     {
-      title: "Feedbacks",
-      description: "Received 10k+ positive comments on socials",
-      icon: "👍",
-    },
-    {
-      title: "Startups",
-      description: "4 failed & 1 successful startup",
-      icon: "📌",
+      title: "Freelance",
+      description: "4+ projects Shipped",
+      icon: "🔥",
     },
     {
       title: "Languages",
-      description: "English (Professional), Urdu (Native)",
+      description: "English (Professional), Hindi (Native)",
       icon: "🗣️",
     },
     {
       title: "Hobbies",
       description: "Reading, Writing, Coding, Traveling",
       icon: "🎓",
-    },
-    {
-      title: "Age",
-      description: "20 years old (04-Sep-2004)",
-      icon: "🙆‍♂️",
     },
     {
       title: "Status",
