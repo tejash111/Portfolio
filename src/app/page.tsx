@@ -139,12 +139,16 @@ export default function Page() {
       
         <main className="container flex relative mx-auto min-h-screen scroll-my-12 bg-black py-4 sm:p-6 md:p-16 print:p-12 pb-24">
           
-        <div className="w-px bg-gray-800 lg:block hidden"></div>
+        <div className="w-px  bg-gray-800 lg:block hidden"></div>
         
           <section className="mx-auto w-full max-w-3xl space-y-10 rounded-2xl bg-black text-white print:bg-white print:text-black">
           <AnimatedSection>
-            <div className="flex items-center justify-between gap-8 rounded-xl border border-gray-800 p-4">
-              <div className="flex-1 space-y-2.5">
+           
+            <div className="flex items-center justify-between  rounded-xl border border-gray-800 p-4">
+               
+               <div className="flex w-full overflow-hidden">
+                
+               <div className="flex-1 space-y-2.5">
                 <h1 className="text-3xl font-bold tracking-tight">
                   {RESUME_DATA.name}
                 </h1>
@@ -215,8 +219,7 @@ export default function Page() {
                 ) : null} */}
                 </div>
               </div>
-
-              <Avatar className="hidden h-32 w-32 rounded-xl border-2 border-gray-800 md:block">
+               <Avatar className="h-fit w-32 rounded-xl border-2 border-gray-800 ">
                 <AvatarImage
                   alt={RESUME_DATA.name}
                   src={RESUME_DATA.avatarUrl}
@@ -224,6 +227,10 @@ export default function Page() {
                 />
                 <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
               </Avatar>
+               </div>
+            
+
+              
             </div>
             </AnimatedSection>
             <AnimatedSection>
@@ -280,10 +287,14 @@ export default function Page() {
                             ))}
                           </span>
                         </h3>
-                        <div className="text-sm tabular-nums text-gray-500">
+                        <div className=" hidden lg:block  text-sm tabular-nums text-gray-500">
                           {work.start} - {work.end ?? "Present"}
                         </div>
+                        
                       </div>
+                      <div className="block lg:hidden text-sm tabular-nums text-gray-500">
+                          {work.start} - {work.end ?? "Present"}
+                        </div>
 
                       <h4 className="font-mono text-sm leading-none print:text-[12px]">
                         {work.title}
