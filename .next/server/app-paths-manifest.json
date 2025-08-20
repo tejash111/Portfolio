@@ -1,7 +1,7 @@
 {
   "/api/profile/route": "app/api/profile/route.js",
-  "/apple-icon.png/route": "app/apple-icon.png/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
 }

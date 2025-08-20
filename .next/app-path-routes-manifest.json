@@ -1,7 +1,7 @@
 {
   "/api/profile/route": "/api/profile",
-  "/apple-icon.png/route": "/apple-icon.png",
   "/favicon.ico/route": "/favicon.ico",
-  "/page": "/",
-  "/_not-found/page": "/_not-found"
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
 }
