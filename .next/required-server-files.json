@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\Tyler durden\\Desktop\\Portfolio",
+    "outputFileTracingRoot": "",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -177,9 +177,6 @@
       "swcTraceProfiling": false,
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
-      "turbo": {
-        "root": "C:\\Users\\Tyler durden\\Desktop\\Portfolio"
-      },
       "typedRoutes": false,
       "typedEnv": false,
       "parallelServerCompiles": false,
