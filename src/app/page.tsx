@@ -1,10 +1,9 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, ReactNode } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import {
   GlobeIcon,
@@ -22,7 +21,7 @@ import AnimatedSection from "@/components/framer/animatedSection";
 import StackSection from "@/components/section/skill";
 import MyServices from "@/components/section/services";
 
-export function Counter({ end }: { end: number }) {
+ function Counter({ end }: { end: number }) : ReactNode {
   const [count, setCount] = useState(0);
   useEffect(() => {
     if (count >= end) return;

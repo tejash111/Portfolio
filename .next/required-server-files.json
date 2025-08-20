@@ -49,7 +49,10 @@
       "path": "/_next/image",
       "loader": "default",
       "loaderFile": "",
-      "domains": [],
+      "domains": [
+        "encrypted-tbn0.gstatic.com",
+        "static.beebom.com"
+      ],
       "disableStaticImages": false,
       "minimumCacheTTL": 60,
       "formats": [
@@ -96,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\Tyler durden\\Desktop\\portfolio",
+    "outputFileTracingRoot": "C:\\Users\\Tyler durden\\Desktop\\Portfolio",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -175,7 +178,7 @@
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
       "turbo": {
-        "root": "C:\\Users\\Tyler durden\\Desktop\\portfolio"
+        "root": "C:\\Users\\Tyler durden\\Desktop\\Portfolio"
       },
       "typedRoutes": false,
       "typedEnv": false,
@@ -281,7 +284,7 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js"
   },
-  "appDir": "C:\\Users\\Tyler durden\\Desktop\\portfolio",
+  "appDir": "C:\\Users\\Tyler durden\\Desktop\\Portfolio",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
