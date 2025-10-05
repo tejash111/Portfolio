@@ -65,6 +65,23 @@ export const RESUME_DATA = {
       ],
 
   work: [
+     {
+      company: "Stealth Startup",
+      link: "#",
+      badges: ["Remote", "Frontend"],
+      title: "Founding Frontend developer",
+      start: "2025 September",
+      end: "Present",
+      bulletPoints: [
+        {
+  text: "Developing responsive and interactive frontend applications using React, Framer Motion, LangChain, and Langgraph.",
+},
+{
+  text: "Collaborated with backend developers working in Django to deliver end-to-end solutions, focusing on seamless integration and user experience.",
+},
+
+          ],
+    },
     {
       company: "FOSSCU",
       link: "https://fosscu.org/",
