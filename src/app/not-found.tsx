@@ -20,42 +20,8 @@ export default function NotFound() {
           >
             Return Home
           </Link>
-          <a
-            className="flex h-10 items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-lg transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:min-w-44 sm:px-5 sm:text-base dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
-            href="https://t.me/AsharibAli"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get in Touch 🤙
-          </a>
         </div>
       </main>
-      <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://asharibali.medium.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Read Articles →
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/AsharibAli"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github →
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.asharib.xyz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go to asharib.xyz →
-        </a>
-      </footer>
       <div>
       </div>
     </div>
