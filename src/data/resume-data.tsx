@@ -82,6 +82,22 @@ export const RESUME_DATA = {
 
           ],
     },
+          {
+      company: "Tensorik",
+      link: "#",
+      badges: ["Remote", "Full stack"],
+      title: "Full stack developer",
+      start: "2025 August",
+      end: "2025 October",
+      bulletPoints: [
+      {
+  text: "Built dynamic and responsive web applications using React for the frontend and node.js for the backend.",
+},
+{
+  text: "Integrated Razorpay payment gateway to enable secure and seamless online transactions within the platform.",
+},
+          ],
+    },
     {
       company: "FOSSCU",
       link: "https://fosscu.org/",
